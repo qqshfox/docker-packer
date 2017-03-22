@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Hanfei Shen <qqshfox@gmail.com>
 
-ENV PACKER_VERSION 0.8.6
+ENV PACKER_VERSION 0.12.3
 
 RUN mkdir /tmp/packer \
     && cd /tmp/packer \
